@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('mainApp.urls')),
     path('webexample/', include('webexample.urls')),
     path('news/', include('news.urls')),
+    path('accounts/', include('registration.backends.hmac.urls')),
 ]
